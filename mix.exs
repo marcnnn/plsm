@@ -22,7 +22,7 @@ defmodule Plsm.Mixfile do
   defp deps do
     [
       {:ex_doc, ">= 0.29", only: :dev, runtime: false},
-      {:myxql, ">= 0.6"},
+      {:myxql, ">= 0.7.0"},
       {:postgrex, ">= 0.16"},
       {:inflex, ">= 2.1"},
       {:ecto_sql, ">= 3.9", only: :test},
