@@ -5,7 +5,7 @@ defmodule Plsm.Mixfile do
     [
       app: :plsm,
       version: "2.4.0",
-      elixir: "~> 1.7",
+      elixir: "~> 1.17",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       elixirc_paths: ["lib"] ++ (Mix.env() == :test && ["test/schemas"] || []),
